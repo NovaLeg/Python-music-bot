@@ -21,9 +21,9 @@ class music(commands.Cog):
         await self.bot.wait_until_ready()
         await wavelink.NodePool.create_node(
             bot=self.bot,
-            host="lavalinkv3-id.serenetia.com",
-            port=80,
-            password="BatuManaBisa",
+            host="LAVALINK",
+            port=0000,
+            password="PASSWORD",
             https=False
         )
 
